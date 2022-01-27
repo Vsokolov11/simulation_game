@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class World : MonoBehaviour
 {
@@ -104,8 +105,17 @@ public class World : MonoBehaviour
             currentPos.x += distanceBetween;
         }
     }
+    public void CheckForInput()
+    {
+        if(Input.GetAxis("Cancel") > 0)
+        {
+            SceneManager.LoadScene("IngameMenu");
+        }
+
+    }
     void Update()
     {
+        CheckForInput();
         timeLeft -= 1 * Time.deltaTime;
         
 

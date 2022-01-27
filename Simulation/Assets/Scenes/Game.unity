@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667555, g: 0.48427182, b: 0.5645241, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,22 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &19875223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 1724373338}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1129825070}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &49428049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -200,6 +216,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+--- !u!1 &208188387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 1319510499}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486682221}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &224573990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 49428049}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094075913}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &258336728
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,11 +363,36 @@ RectTransform:
   m_AnchoredPosition: {x: 9.799988, y: -35.5}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!4 &486682221 stripped
+--- !u!1 &342302695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 892665235}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 671613957}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486682221
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 1319510499}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208188387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1763371766}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &506998214
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,16 +503,50 @@ Transform:
   m_Father: {fileID: 1036375140}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &671613957 stripped
+--- !u!4 &671613957
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 892665235}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &673698438 stripped
+  m_GameObject: {fileID: 342302695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2096647376}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &673698438
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 1626354448}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675507238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1459075838}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &675507238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 1626354448}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 673698438}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,11 +735,36 @@ Transform:
   m_Father: {fileID: 258336729}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &803806450 stripped
+--- !u!1 &800613052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 2120352717}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303984403}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &803806450
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 1633351495}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880831420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2133718175}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &819811142
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,11 +921,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
---- !u!4 &872499136 stripped
+--- !u!4 &872499136
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 1171742929}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744382108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1868767044}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &880831420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 1633351495}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803806450}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &892665235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1117,11 +1274,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!4 &1114733547 stripped
+--- !u!4 &1114733547
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 1123840012}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306723314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 513911127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1123840012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1199,11 +1365,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
---- !u!4 &1129825070 stripped
+--- !u!4 &1129825070
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 1724373338}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19875223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1932339039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1133244855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,22 +1565,15 @@ MonoBehaviour:
   minZ: -19.5
   maxX: 19.5
   minX: -19.5
-  spawns:
-  - {fileID: 1610189291}
-  - {fileID: 2096647375}
-  - {fileID: 1560679282}
-  - {fileID: 513911126}
-  - {fileID: 1763371765}
-  - {fileID: 2133718174}
-  - {fileID: 1932339038}
-  - {fileID: 2146407123}
-  - {fileID: 1459075837}
-  - {fileID: 1868767043}
-  food: {fileID: 2619961638379933808, guid: e1bbcb81897655241b75bf12f30a57cf, type: 3}
+  house: {fileID: 8436628972928329702, guid: e3451c7c5e77c6140bf5873a5e6a80a3, type: 3}
+  food: {fileID: 2619961638379933808, guid: e2484dc0231d75149960dcbd9ee3543a, type: 3}
   foodCount: 0
   pos: {x: 0, y: 0, z: 0}
   entityCount: 0
   temp: 0
+  distanceBetween: 5
+  startingPosX: -15
+  numberOfHouses: 7
   isNight: 0
 --- !u!4 &1287219401
 Transform:
@@ -1423,11 +1591,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1303984403 stripped
+--- !u!4 &1303984403
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 2120352717}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800613052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1610189292}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1306723314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 1123840012}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114733547}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &1319510499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2080,6 +2273,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+--- !u!1 &1744382108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 1171742929}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872499136}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1763371765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,6 +2351,22 @@ Transform:
   m_Father: {fileID: 1036375140}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1906528629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
+  m_PrefabInstance: {fileID: 854453783}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2064566403}
+  m_Layer: 0
+  m_Name: 'house (Missing Prefab with guid: ea510668e0e04ce4b9dc14fdb2f29ec4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1932339038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,16 +2398,34 @@ Transform:
   m_Father: {fileID: 1036375140}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2064566403 stripped
+--- !u!4 &2064566403
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 854453783}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2094075913 stripped
+  m_GameObject: {fileID: 1906528629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1560679283}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2094075913
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea510668e0e04ce4b9dc14fdb2f29ec4, type: 3}
   m_PrefabInstance: {fileID: 49428049}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224573990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2146407124}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096647375
 GameObject:
   m_ObjectHideFlags: 0
