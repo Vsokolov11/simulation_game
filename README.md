@@ -1,4 +1,4 @@
-# Burger Entites
+# Burger Entities
 
 
 ## This is a 0 payer game I made a while ago with the Unity Engine.
